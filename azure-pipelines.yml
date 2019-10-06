@@ -49,7 +49,7 @@ steps:
     git clone --depth 1 https://$GITHUB_TOKEN@github.com/Universal-Team/extras.git
     mkdir extras/builds/iDex/
     cd extras/builds/iDex/
-    cp ../../../iDex.3dsx iDex.3dsx
+    cp ../../../iDex.nds iDex.nds
     # qrencode -o iDex.png https://github.com/Universal-Team/raw/v$CURRENT_DATE/builds/iDex/iDex.cia
     git stage .
     git commit -m "iDex | $(COMMIT_TAG)"
