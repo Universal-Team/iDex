@@ -1,0 +1,7 @@
+*/build
+*.nds
+*.elf
+
+*.DS_Store
+.vscode/ipch
+.vscode
